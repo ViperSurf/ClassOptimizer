@@ -1,0 +1,46 @@
+name: Sync UIUC Catalog
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      subjects:
+        description: 'Optional subject subset (space separated, e.g. CS ECE MATH)'
+        required: false
+        default: ''
+      terms:
+        description: 'Optional explicit terms (space separated, e.g. 2026-fall 2027-spring)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pipeline dependencies
+        run: pip install -r scripts/requirements.txt
+      - name: Build catalog bundles from UIUC CISApp
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.subjects }}" ]; then ARGS="$ARGS --subjects ${{ inputs.subjects }}"; fi
+          if [ -n "${{ inputs.terms }}" ]; then ARGS="$ARGS --terms ${{ inputs.terms }}"; fi
+          python scripts/build_uiuc_data.py $ARGS
+      - name: Commit refreshed catalog data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "Catalog already up to date."
+          else
+            git commit -m "data: refresh UIUC catalog bundles"
+            git push
+          fi
