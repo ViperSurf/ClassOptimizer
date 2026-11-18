@@ -1,0 +1,42 @@
+{
+  "generatedAtIso": "2026-11-18T05:43:47.201486+00:00",
+  "defaultTermByCampus": {
+    "uiuc": "2027-spring",
+    "uic": "2027-spring",
+    "uis": "2027-spring"
+  },
+  "terms": [
+    {
+      "slug": "2026-fall",
+      "year": 2026,
+      "season": "fall",
+      "label": "Fall 2026",
+      "campusId": "uiuc",
+      "isCurrent": true,
+      "isUpcomingRegistration": false,
+      "startDate": "2026-08-24",
+      "midTermDate": "2026-10-19",
+      "endDate": "2026-12-09",
+      "lastUpdatedIso": "2026-11-18T05:43:47.198046+00:00",
+      "courseCount": 32,
+      "bundlePath": "data/terms/uiuc-2026-fall.json",
+      "sha256": "317769be3e3e72ae4fee8bf55831a7c7276b8650d870136641581729b98dcff2"
+    },
+    {
+      "slug": "2027-spring",
+      "year": 2027,
+      "season": "spring",
+      "label": "Spring 2027",
+      "campusId": "uiuc",
+      "isCurrent": false,
+      "isUpcomingRegistration": true,
+      "startDate": "2027-01-19",
+      "midTermDate": "2027-03-15",
+      "endDate": "2027-05-05",
+      "lastUpdatedIso": "2026-11-18T05:43:47.200109+00:00",
+      "courseCount": 32,
+      "bundlePath": "data/terms/uiuc-2027-spring.json",
+      "sha256": "419e8f5f945759ca5a1667b74d95a3977ecfaeb635f25fa0d89e1bf477c84c2a"
+    }
+  ]
+}

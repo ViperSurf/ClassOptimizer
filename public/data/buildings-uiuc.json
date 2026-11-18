@@ -1,0 +1,114 @@
+{
+  "SIEBEL": {
+    "code": "SIEBEL",
+    "name": "Thomas M. Siebel Center for Computer Science",
+    "lat": 40.1138,
+    "lng": -88.2249,
+    "quad": "North/Engineering"
+  },
+  "ECEB": {
+    "code": "ECEB",
+    "name": "Electrical and Computer Engineering Building",
+    "lat": 40.1149,
+    "lng": -88.228,
+    "quad": "North/Engineering"
+  },
+  "DCL": {
+    "code": "DCL",
+    "name": "Digital Computer Laboratory",
+    "lat": 40.1131,
+    "lng": -88.2265,
+    "quad": "North/Engineering"
+  },
+  "CIF": {
+    "code": "CIF",
+    "name": "Campus Instructional Facility",
+    "lat": 40.1125,
+    "lng": -88.2283,
+    "quad": "North/Engineering"
+  },
+  "GRAINGER": {
+    "code": "GRAINGER",
+    "name": "Grainger Engineering Library",
+    "lat": 40.1124,
+    "lng": -88.2267,
+    "quad": "North/Engineering"
+  },
+  "LINCOLN": {
+    "code": "LINCOLN",
+    "name": "Lincoln Hall",
+    "lat": 40.1065,
+    "lng": -88.2284,
+    "quad": "Main Quad"
+  },
+  "FOELLINGER": {
+    "code": "FOELLINGER",
+    "name": "Foellinger Auditorium",
+    "lat": 40.1059,
+    "lng": -88.2273,
+    "quad": "Main Quad"
+  },
+  "GREGORY": {
+    "code": "GREGORY",
+    "name": "Gregory Hall",
+    "lat": 40.1057,
+    "lng": -88.2295,
+    "quad": "Main Quad"
+  },
+  "LOOMIS": {
+    "code": "LOOMIS",
+    "name": "Loomis Laboratory of Physics",
+    "lat": 40.111,
+    "lng": -88.2233,
+    "quad": "North/Engineering"
+  },
+  "NOYES": {
+    "code": "NOYES",
+    "name": "Noyes Laboratory",
+    "lat": 40.1083,
+    "lng": -88.2259,
+    "quad": "Main Quad"
+  },
+  "ALTGELD": {
+    "code": "ALTGELD",
+    "name": "Altgeld Hall",
+    "lat": 40.1093,
+    "lng": -88.2284,
+    "quad": "Main Quad"
+  },
+  "ENGLISH": {
+    "code": "ENGLISH",
+    "name": "English Building",
+    "lat": 40.1073,
+    "lng": -88.2283,
+    "quad": "Main Quad"
+  },
+  "DAVENPORT": {
+    "code": "DAVENPORT",
+    "name": "Davenport Hall",
+    "lat": 40.1076,
+    "lng": -88.2259,
+    "quad": "Main Quad"
+  },
+  "ILLINI": {
+    "code": "ILLINI",
+    "name": "Illini Union",
+    "lat": 40.1095,
+    "lng": -88.2272,
+    "quad": "Main Quad"
+  },
+  "BIF": {
+    "code": "BIF",
+    "name": "Business Instructional Facility",
+    "lat": 40.1038,
+    "lng": -88.2312,
+    "quad": "South Quad"
+  },
+  "ARC": {
+    "code": "ARC",
+    "name": "Activities and Recreation Center",
+    "lat": 40.1006,
+    "lng": -88.2359,
+    "quad": "South Quad"
+  }
+}
